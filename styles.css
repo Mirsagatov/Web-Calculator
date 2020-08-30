@@ -1,0 +1,57 @@
+#container{
+	background-color: #FF910A;
+	margin: 7vw auto;
+	padding: 2.8vw;
+	width: 29vw;
+	border-radius: 2vw;
+}
+
+#display{
+	width: 27vw;
+	border-radius: 1vw;
+	padding: 1vw;
+	font-size: 1.5vw;
+	background-color: black;
+	color: gold;
+	box-shadow: 0.3vw 0.3vw 0.3vw gold;
+	outline: none;
+}
+
+#grid{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	width: 27.5vw;
+	grid-gap: 0.8vw;
+	padding: 1vw;
+}
+
+.grid-item{
+	text-align: center;
+	background-color: black;
+	color: gold;
+	padding: 0.6vw;
+	border-radius: 1vw;
+	font-size: 1.8vw;
+	box-shadow: auto auto auto;
+	box-shadow: 0.2vw 0.2vw 0.2vw gold;
+	outline: none;
+}
+
+.grid-item:hover{
+	background-color: #8300E0;
+	transition: 1s;
+}
+
+#clear-button{
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+#equals{
+	grid-column-start: 3;
+	grid-column-end: 5;
+}
+
+body{
+	background-color: #8300E0;
+}
