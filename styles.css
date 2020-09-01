@@ -59,7 +59,11 @@
 }
 
 body{
-	background-color: #8300E0;
+	background: linear-gradient(324.6deg, #D207F3 0%, 
+		rgba(255, 255, 255, 0) 100%), 
+		linear-gradient(144.6deg, #6405FF 0%, 
+		rgba(255, 255, 255, 0) 100%, 
+		rgba(255, 250, 250, 0.0208333) 100%), #FFFFFF;
 	overflow: hidden;
 }
 
